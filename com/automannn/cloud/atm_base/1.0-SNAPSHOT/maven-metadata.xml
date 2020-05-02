@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.automannn.cloud</groupId>
+  <artifactId>atm_base</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20200502.033805</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20200502033805</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0-20200502.033805-1</value>
+        <updated>20200502033805</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
