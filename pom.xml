@@ -41,16 +41,17 @@
                 <artifactId>site-maven-plugin</artifactId>
                 <version>0.12</version>
                 <configuration>
-                    <message>Maven artifacts for ${project.version}</message>
+                    <server>github</server>
+                    <message>Automannn's Maven artifacts for ${project.version}</message>
                     <noJekyll>true</noJekyll>
-                    <outputDirectory>${project.build.directory}/commonUtils</outputDirectory>
+                    <outputDirectory>${project.build.directory}/${distributionManagement.directory.name}</outputDirectory>
                     <branch>refs/heads/master</branch>
                     <merge>true</merge>
                     <includes>
                         <include>**/*</include>
                     </includes>
 
-                    <repositoryName>commonUtils</repositoryName>
+                    <repositoryName>${distributionManagement.directory.name}</repositoryName>
                     <repositoryOwner>automannn</repositoryOwner>
                 </configuration>
 
