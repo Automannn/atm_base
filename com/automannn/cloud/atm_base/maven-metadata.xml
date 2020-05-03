@@ -3,10 +3,10 @@
   <groupId>com.automannn.cloud</groupId>
   <artifactId>atm_base</artifactId>
   <versioning>
-    <release>1.4-RELEASE</release>
+    <release>1.4.1-RELEASE</release>
     <versions>
-      <version>1.4-RELEASE</version>
+      <version>1.4.1-RELEASE</version>
     </versions>
-    <lastUpdated>20200502064819</lastUpdated>
+    <lastUpdated>20200503063106</lastUpdated>
   </versioning>
 </metadata>
