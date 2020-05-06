@@ -33,6 +33,17 @@
         </dependencies>
     </dependencyManagement>
 
+    <distributionManagement>
+        <repository>
+            <id>automannn-rdc-releases</id>
+            <url>https://repo.rdc.aliyun.com/repository/129937-release-pCa8b0/</url>
+        </repository>
+        <snapshotRepository>
+            <id>automannn-rdc-snapshots</id>
+            <url>https://repo.rdc.aliyun.com/repository/129937-snapshot-cpENTs/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <build>
         <plugins>
             <plugin>
